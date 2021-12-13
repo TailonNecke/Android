@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/tailo/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/tailo/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/dashboard.xml" value="0.16203703703703703" />
+        <entry key="..\:/Users/tailo/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/home.xml" value="0.33" />
+        <entry key="..\:/Users/tailo/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/registro.xml" value="0.29528985507246375" />
+        <entry key="..\:/Users/tailo/AndroidStudioProjects/MyApplication2/app/src/main/res/layout/resultado.xml" value="0.35260416666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

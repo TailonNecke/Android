@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Dashboard">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="-31dp"
+            tools:layout_editor_absoluteY="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:orientation="horizontal">
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="10px"
+                    android:layout_height="110px"
+                    android:layout_weight="1"
+                    android:backgroundTint="#03A9F4"
+                    android:text="Login" />
+
+                <EditText
+                    android:id="@+id/editTextTextEmailAddress"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/editTextTextPassword"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="senha"
+                    android:inputType="textPassword"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="44dp" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:layout_editor_absoluteX="-5dp"
+                tools:layout_editor_absoluteY="-19dp">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tela de Registro"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    tools:layout_editor_absoluteX="119dp"
+                    tools:layout_editor_absoluteY="0dp" />
+
+                <EditText
+                    android:id="@+id/editTextDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Data de nascimento"
+                    android:inputType="date"
+                    tools:layout_editor_absoluteX="10dp"
+                    tools:layout_editor_absoluteY="414dp" />
+
+                <EditText
+                    android:id="@+id/editTextTextEmailAddress2"
+                    android:layout_width="171dp"
+                    android:layout_height="46dp"
+                    android:ems="10"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress"
+                    tools:layout_editor_absoluteX="10dp"
+                    tools:layout_editor_absoluteY="146dp" />
+
+                <EditText
+                    android:id="@+id/editTextTextEmailAddress4"
+                    android:layout_width="171dp"
+                    android:layout_height="46dp"
+                    android:ems="10"
+                    android:hint="Confirmar Email"
+                    android:inputType="textEmailAddress"
+                    tools:layout_editor_absoluteX="207dp"
+                    tools:layout_editor_absoluteY="146dp" />
+
+                <EditText
+                    android:id="@+id/editTextTextPassword3"
+                    android:layout_width="172dp"
+                    android:layout_height="50dp"
+                    android:ems="10"
+                    android:hint="Confirmar Senha"
+                    android:inputType="textPassword"
+                    tools:layout_editor_absoluteX="206dp"
+                    tools:layout_editor_absoluteY="203dp" />
+
+                <EditText
+                    android:id="@+id/editTextTextPassword2"
+                    android:layout_width="172dp"
+                    android:layout_height="50dp"
+                    android:ems="10"
+                    android:hint="Senha"
+                    android:inputType="textPassword"
+                    tools:layout_editor_absoluteX="11dp"
+                    tools:layout_editor_absoluteY="203dp" />
+
+                <EditText
+                    android:id="@+id/editTextPhone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Telefone: ()xxxxx-xxxx"
+                    android:inputType="phone"
+                    tools:layout_editor_absoluteX="10dp"
+                    tools:layout_editor_absoluteY="287dp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mulher"
+                    tools:layout_editor_absoluteX="320dp"
+                    tools:layout_editor_absoluteY="287dp" />
+
+                <EditText
+                    android:id="@+id/editTextTextPostalAddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Endereço"
+                    android:inputType="textPostalAddress"
+                    tools:layout_editor_absoluteX="10dp"
+                    tools:layout_editor_absoluteY="350dp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Homem"
+                    tools:layout_editor_absoluteX="235dp"
+                    tools:layout_editor_absoluteY="287dp" />
+
+                <EditText
+                    android:id="@+id/nome"
+                    android:layout_width="171dp"
+                    android:layout_height="46dp"
+                    android:ems="10"
+                    android:hint="Nome"
+                    android:inputType="text"
+                    tools:layout_editor_absoluteX="10dp"
+                    tools:layout_editor_absoluteY="68dp" />
+
+                <EditText
+                    android:id="@+id/sobrenome"
+                    android:layout_width="171dp"
+                    android:layout_height="46dp"
+                    android:ems="10"
+                    android:hint="Sobrenome"
+                    android:inputType="text"
+                    tools:layout_editor_absoluteX="206dp"
+                    tools:layout_editor_absoluteY="68dp" />
+
+                <Button
+                    android:id="@+id/btnCancelar"
+                    android:layout_width="350px"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#808080"
+                    android:text="Cancelar"
+                    tools:layout_editor_absoluteX="48dp"
+                    tools:layout_editor_absoluteY="550dp" />
+
+                <Button
+                    android:id="@+id/btnConfirmar"
+                    android:layout_width="350px"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#03A9F4"
+                    android:text="Confirmar"
+                    tools:layout_editor_absoluteX="244dp"
+                    tools:layout_editor_absoluteY="550dp" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
